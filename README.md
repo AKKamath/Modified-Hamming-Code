@@ -23,4 +23,7 @@ This project is based on simulating a simple Stop and Wait ARQ to test the error
 H.txt contains the parity bit matrix being used. Errors.txt contains the codewords that would be received if 1 bit errors were produced. Checking against this file allows us to fix all 1 bit burst errors. If an error has occured not belonging to this file, then either a 2 bit or 3 bit burst error has occured.  
 
 ## Executing the Program ###
-Compile both Server.cpp and Client.cpp. Run the executable for server, then for client. The server will ask which file to send to the client. The client then stores the transferred file as Out.txt.
+* Compile both Server.cpp and Client.cpp. 
+* Run the executable for server, then for client. 
+* The server will ask which file to send to the client. 
+* The client then stores the transferred file as Out.txt.
